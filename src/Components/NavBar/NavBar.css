@@ -1,0 +1,24 @@
+.NavBarStyle {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background: transparent;
+  position: absolute;
+  height: 70px;
+  top: 0;
+  left: 25%;
+  z-index: 999;
+}
+.NavBarStyle.active {
+  background: white;
+  justify-content: center;
+  display: flex;
+  height: 70px;
+  position: fixed;
+  left: 0;
+  right: 0;
+}
+.listStyle {
+  display: inline;
+}

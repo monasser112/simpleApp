@@ -1,0 +1,10 @@
+.Wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: 12%;
+  margin-right: 12%;
+}
+.item {
+  flex: 1;
+}
